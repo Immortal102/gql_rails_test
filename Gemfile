@@ -30,6 +30,12 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'graphql', '1.7.4'
+
+group :development do
+  gem 'graphiql-rails', '1.4.4'
+end
+
 group :development, :test do
   gem 'pry'
 end
