@@ -31,6 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'graphql', '1.7.4'
+gem 'bcrypt', '~> 3.1.7'
 
 group :development do
   gem 'graphiql-rails', '1.4.4'
